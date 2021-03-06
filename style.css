@@ -237,7 +237,7 @@ we can use Ultimate CSS Gradient Generator to generate linear gradient for our C
 }
 
 .one {
-  float: left; - float property plays around with an image positioning but needs to be rectified using overflow property(in banner) and clear property(in paragrap)
+  float: left; - float property plays around with an image positioning but needs to be rectified using overflow property(in banner) and clear property(in paragraph)
   margin-left: 50px;
 } */
 
@@ -722,10 +722,26 @@ ease-in-out = slow start, fast, slow end
   /* some extra resources for browser prefixing
   
   Autoprefixer
-  can i use.com - shows browser support 
+  caniuse.com - shows browser support 
   
   
   */
 
 
   /* SEMANTIC HTML */
+
+  /*flexbox */
+  /* flexbox container properties
+  display: flex;
+  flex flow: row,column, nowrap,wrap (flex direction , flex wrap)
+  justify-content:(deals with the main axis x-axis when flex-direction is row), center, flex-start, flex-end
+  align-content:defines what happens with extra space that we have in relation to the cross axis(y-xis), center, space-between
+  align-items:(refers to the position of items relating to the cross axis y-axis when flex-direction is column) stretch(default), center, flex-start, flex-end
+  */
+
+  /*items in a flex container(flex items) are known as children and the following properties can be applied to them
+  order:changes the position of flex-items(1,2 3...)
+  flex:1, 2 ...(defines the width of flex-items)
+  align-self:
+  flex-basis: 30% ... specifying size using flexbox
+  */
